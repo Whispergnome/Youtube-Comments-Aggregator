@@ -5,3 +5,5 @@ The first part is the yt_fetch_comments.py which needs an API KEY, reach a singl
 The second part is cluster_comments.py which takes .csv file and attempts to cluster similar comments.
 
 run_pipeline.py runs both one after the other.
+
+output_comments is a raw data file with comments already fetched, so the second can work on a sample data.
